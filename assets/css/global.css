@@ -19,30 +19,3 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-body {
-    background: #f86d6d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1.5rem;
-    height: 100vh;
-    width: 100vw;
-}
-
-section.content h1 {
-    font-size: 3.2rem;
-    color: #fff;
-}
-
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 1000px;
-    }
-}

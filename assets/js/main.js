@@ -1,8 +1,5 @@
 const loadMoreButton = document.getElementById('loadMore')
 const pokemonList = document.getElementById('pokemonList')
-const pokemonStatistic = document.getElementById('statistc')
-console.log("pokemonStatistic", pokemonStatistic);
-const cardPokemon = document.querySelector('card-pokemon');
 const limit = 10
 let offset = 0
 
@@ -13,7 +10,7 @@ function capitalizarPrimeiraLetra(str) {
 function loadPokemonItems(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
         const newHtml = pokemons.map((pokemon) => `
-        <a href="assets/pages/statistics.html">
+        <a href="assets/pages/statistics.html?id=${pokemon.number}">
             <li class="pokemon card-pokemon">
                 <span class="number">#${pokemon.number.toFixed(0).padStart(3, '0')}</span>
                 <span class="name">${capitalizarPrimeiraLetra(pokemon.name)} (shiny)</span>

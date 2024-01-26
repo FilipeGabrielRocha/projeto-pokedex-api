@@ -1,0 +1,76 @@
+* {
+    list-style: none;
+}
+
+section.content-statistic {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 2rem 2rem 2rem;
+    position: relative;
+}
+
+section.content-statistic .btn-voltar-pokeStatistic {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    border: none;
+    background: #BF3029;
+    width: 30%;
+    display: none;
+}
+
+.content-statistic .btn-arrow {
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.content-statistic .header-statistic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-statistic .header-statistic .name-pokemon {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.content-statistic .header-statistic .types {
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.content-statistic .header-statistic .types .type {
+    padding: .5rem 1.5rem;
+    filter: brightness(1.1);
+    text-transform: capitalize;
+    border-radius: 3rem;
+}
+
+.content-statistic .header-statistic .number {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.content-statistic .photo-pokemon {
+    height: 20rem;
+    margin: 3rem auto 0 auto;
+    z-index: 1;
+}
+
+.statistic-pokemon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 51vh;
+    width: 100%;
+    background: #fff;
+    border-radius: 3rem 3rem 0 0;
+}

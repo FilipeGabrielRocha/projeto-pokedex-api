@@ -19,7 +19,7 @@ function convertPokeApiDetailPokemon(pokeDetail) {
     pokemon.stats_name = stats_name
     pokemon.stats_value = stats_value
     pokemon.abilities = abilities
-    pokemon.abilities = moves
+    pokemon.moves = moves
     
     console.log("Nova classe pokemon", pokemon);
 
@@ -43,4 +43,12 @@ pokeApi.getPokemons = (offset = 0, limit = 10) => {
     .then((pokemons) => pokemons.map(pokeApi.getPokemonDetail))
     .then((detailRequest) => Promise.all(detailRequest))
     .then((pokemonsDetails) => pokemonsDetails)
+}
+
+pokeApi.getPokemonDetailById = (pokemonId) => {
+    const url = `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`;
+
+    return fetch(url)
+        .then((response) => response.json())
+        .then(convertPokeApiDetailPokemon);
 }
