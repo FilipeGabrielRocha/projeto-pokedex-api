@@ -9,8 +9,6 @@ function convertPokeApiDetailPokemon(pokeDetail) {
     const abilities = pokemon.abilities = pokeDetail.abilities.map((abilitiesSlot) => abilitiesSlot.ability.name)
     const moves = pokemon.moves = pokeDetail.moves.map((movesSlot) => movesSlot.move.name)
     
-    console.log("Classe antiga", pokeDetail);
-    
     pokemon.number = pokeDetail.id
     pokemon.name = pokeDetail.name
     pokemon.type = type
