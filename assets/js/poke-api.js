@@ -14,6 +14,7 @@ function convertPokeApiDetailPokemon(pokeDetail) {
     pokemon.type = type
     pokemon.types = types
     pokemon.photo = pokeDetail.sprites.other.showdown.front_shiny
+    // pokemon.photo = pokeDetail.sprites.versions['generation-v']['black-white']['animated'].front_shiny
     pokemon.height = pokeDetail.height
     pokemon.weight = pokeDetail.weight
     pokemon.stats_name = stats_name

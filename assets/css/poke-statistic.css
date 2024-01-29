@@ -23,8 +23,7 @@ section.content-statistic .btn-voltar-pokeStatistic {
 .content-statistic .btn-arrow {
     color: #fff;
     font-size: 3rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .content-statistic .header-statistic {
@@ -35,7 +34,7 @@ section.content-statistic .btn-voltar-pokeStatistic {
 
 .content-statistic .header-statistic .name-pokemon {
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-transform: capitalize;
     margin-bottom: 1rem;
 }
@@ -49,7 +48,7 @@ section.content-statistic .btn-voltar-pokeStatistic {
 
 .content-statistic .header-statistic .types .type {
     padding: .5rem 1.5rem;
-    filter: brightness(1.1);
+    filter: brightness(0.9);
     text-transform: capitalize;
     border-radius: 3rem;
 }
@@ -69,8 +68,96 @@ section.content-statistic .btn-voltar-pokeStatistic {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 51vh;
+    height: 50vh;
     width: 100%;
     background: #fff;
     border-radius: 3rem 3rem 0 0;
 }
+
+.statistic-pokemon header nav ul.list-statistic {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 4rem;
+    color: #b4afaf;
+}
+
+.statistic-pokemon header nav ul.list-statistic li {
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding-bottom: 1.2rem;
+}
+
+.statistic-pokemon header nav ul.list-statistic li:hover {
+    border-bottom: 3px solid #00004f;
+}
+
+.statistic-pokemon .informations .information {
+    display: none;
+}
+
+.statistic-pokemon .informations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.statistic-pokemon .information .list-information li {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 3rem;
+    margin-bottom: 1rem;
+}
+
+.statistic-pokemon .information .list-information li p:first-child,
+.statistic-pokemon .container_base_stats .stats_name .list_stats_name li {
+    color: #b4afaf;
+    font-size: 1.7rem;
+}
+
+.statistic-pokemon .information .list-information li.abilities p:last-child,
+.statistic-pokemon .container_base_stats .stats_name .list_stats_name li {
+    text-transform: capitalize;
+}
+
+.statistic-pokemon .information .list-information li.base-stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.statistic-pokemon .container_base_stats {
+    display: flex;
+    gap: 5rem;
+}
+
+.statistic-pokemon .container_base_stats .stats_value .list_stats_value li {
+    font-size: 1.7rem;
+}
+
+.statistic-pokemon .container_base_stats .stats_value .list_stats_value li,
+.statistic-pokemon .container_base_stats .stats_name .list_stats_name li {
+    margin-bottom: 1rem;
+}
+
+.statistic-pokemon .information.selected {
+    display: flex;
+}
+
+.tab.selected {
+    border-bottom: 3px solid #00004f;
+    color: #787878;
+}
+
+@media (max-width: 480px) {}
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) and (max-width: 1919px) {}
+
+@media (min-width: 1920px) {}

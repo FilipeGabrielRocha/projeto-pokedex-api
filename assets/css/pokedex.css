@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 1.5rem;
     height: 100vh;
     width: 100vw;
@@ -25,10 +26,10 @@ section.content h1 {
     display: flex;
     flex-wrap: wrap;
     overflow-y: auto;
-    max-width: 140rem;
+    max-width: 100rem;
     max-height: 60rem;
     /* flex-direction: column; */
-    align-items: center;
+    align-items: left;
     justify-content: center;
 }
 
@@ -48,6 +49,7 @@ section.content h1 {
 
 .pokemon:hover {
     transform: scale(1.04);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .pokemon .name {
@@ -112,38 +114,4 @@ section.content h1 {
     padding: 1rem 1.5rem;
     font-size: 2rem;
     cursor: pointer;
-}
-
-@media screen and (min-width: 380px) {
-    .pokemons {
-        /* grid-template-columns: 1fr; */
-    }
-
-    .pokemon .detail .types .type {
-        /* font-size: .825rem; */
-    }
-}
-
-@media screen and (min-width: 576px) {
-    .pokemons {
-        /* grid-template-columns: 1fr 1fr 1fr; */
-    }
-
-    .pokemon .name {
-        /* font-size: 1.2rem; */
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 1000px;
-    }
-    
-    .pokemons {
-        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    }
-
-    .pokemon .name {
-        /* font-size: 1.3rem; */
-    }
 }

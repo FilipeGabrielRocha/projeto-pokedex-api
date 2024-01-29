@@ -1,6 +1,6 @@
 const loadMoreButton = document.getElementById('loadMore')
 const pokemonList = document.getElementById('pokemonList')
-const limit = 10
+const limit = 9
 let offset = 0
 
 function capitalizarPrimeiraLetra(str) {
