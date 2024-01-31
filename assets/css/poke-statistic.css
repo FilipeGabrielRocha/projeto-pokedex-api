@@ -52,7 +52,7 @@ section.content-statistic {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 50vh;
+    height: 30rem;
     width: 100%;
     background: #fff;
     border-radius: 3rem 3rem 0 0;
@@ -237,6 +237,18 @@ nav {
         margin-bottom: 0.5rem;
         width: 49%;
         padding: 1.5rem 2rem;
+    }
+}
+
+@media (min-height: 700px) {
+    .statistic-pokemon {
+        height: 30rem;
+    }
+}
+
+@media (min-height: 799px) {
+    .statistic-pokemon {
+        height: 36rem;
     }
 }
 
