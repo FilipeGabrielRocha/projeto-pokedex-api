@@ -5,8 +5,7 @@
 section.content-statistic {
     display: flex;
     flex-direction: column;
-    height: 65vh;
-    /* height: 100vh; */
+    height: 100vh;
     padding: 0 2rem 2rem 2rem;
     position: relative;
 }
@@ -53,7 +52,7 @@ section.content-statistic {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 30rem;
+    height: 27rem;
     width: 100%;
     background: #fff;
     border-radius: 3rem 3rem 0 0;
@@ -243,7 +242,7 @@ nav {
 
 @media (min-height: 700px) {
     .statistic-pokemon {
-        height: 30rem;
+        height: 27rem;
     }
 }
 
