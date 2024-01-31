@@ -25,7 +25,7 @@ section.content h1 {
     flex-wrap: wrap;
     overflow-y: auto;
     max-width: 100rem;
-    max-height: 45rem;
+    max-height: 40rem;
     justify-content: center;
 }
 
@@ -110,4 +110,10 @@ section.content h1 {
     padding: 1rem 1.5rem;
     font-size: 2rem;
     cursor: pointer;
+}
+
+@media (min-height: 700px){
+    .content {
+        /* height: 90vh; */
+    }
 }
