@@ -115,6 +115,6 @@ section.content h1 {
 
 @media (min-height: 700px){
     .content {
-        height: 80vh;
+        height: 60vh;
     }
 }
