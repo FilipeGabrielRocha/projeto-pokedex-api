@@ -148,7 +148,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     overflow-y: auto;
-    height: 24rem;
+    height: 15rem;
     gap: .5rem;
 }
 
