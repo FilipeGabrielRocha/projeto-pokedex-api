@@ -3,6 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto 0;
 }
 
 .content {
@@ -114,6 +115,6 @@ section.content h1 {
 
 @media (min-height: 700px){
     .content {
-        /* height: 90vh; */
+        height: 90vh;
     }
 }

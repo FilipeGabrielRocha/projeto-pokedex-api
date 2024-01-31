@@ -260,6 +260,20 @@ nav {
     }
 }
 
+/* @media (min-height: 810px) {
+    section.content-statistic {
+        height: 72vh;
+    }
+
+    .statistic-pokemon {
+        height: 36rem;
+    }
+
+    .statistic-pokemon .information .list-moves {
+        height: 24rem;
+    }
+} */
+
 @media (min-width: 900px) {
     section.content-statistic {
         height: 100vh;
