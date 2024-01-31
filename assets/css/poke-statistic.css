@@ -247,12 +247,31 @@ nav {
 }
 
 @media (min-height: 799px) {
+    section.content-statistic {
+        height: 100vh;
+    }
+
     .statistic-pokemon {
         height: 36rem;
+    }
+
+    .statistic-pokemon .information .list-moves {
+        height: 24rem;
     }
 }
 
 @media (min-width: 900px) {
+    section.content-statistic {
+        height: 100vh;
+    }
+
+    .statistic-pokemon {
+        height: 33rem;
+    }
+
+    .statistic-pokemon .information .list-moves {
+        height: 22rem;
+    }
 }
 
 @media (min-width: 1200px) {}
