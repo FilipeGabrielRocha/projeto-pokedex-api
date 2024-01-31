@@ -29,7 +29,6 @@ function showTabInformation(tab){
 function displayPokemonDetails(pokemon) {
 
     const newHtmlStatistic = `
-        <div class="container-app">
             <section class="content-statistic ${pokemon.type}">
                 <a href="../../index.html">
                     <i class="fa-solid fa-arrow-left-long btn-arrow"></i>
@@ -103,7 +102,6 @@ function displayPokemonDetails(pokemon) {
                     </div>
                 </article>
             </section>
-        </div>
                 `
 
     pokemonDetailsElement.innerHTML = newHtmlStatistic;
