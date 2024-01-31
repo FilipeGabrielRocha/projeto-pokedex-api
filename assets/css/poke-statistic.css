@@ -97,7 +97,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
 .statistic-pokemon .information {
@@ -109,12 +109,12 @@ nav {
 .statistic-pokemon .information .container-title-about .list-information li,
 .statistic-pokemon .container_base_stats .stats_name .list_stats_name li {
     color: #b4afaf;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .statistic-pokemon .information .container-value-about .list-value-about li {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -136,7 +136,7 @@ nav {
 }
 
 .statistic-pokemon .container_base_stats .stats_value .list_stats_value li {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .statistic-pokemon .container_base_stats .stats_value .list_stats_value li,
